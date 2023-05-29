@@ -1,4 +1,5 @@
-import { Contador } from "./assets/components/Contador";
+import { Contador } from "./components/Contador";
+import { ContadorConHook } from "./components/ContadorConHook";
 import { Funciones } from "./typescript/Funciones";
 import { ObjetosLiterales } from "./typescript/ObjetosLiterales";
 import { TiposBasicos } from "./typescript/TiposBasicos";
@@ -17,6 +18,9 @@ export const App = () => {
       <br />
       <br />
       <Contador />
+      <br />
+      <br />
+      <ContadorConHook />
     </div>
   );
 };
