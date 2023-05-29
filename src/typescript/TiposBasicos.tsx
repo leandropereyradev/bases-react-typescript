@@ -4,7 +4,7 @@ export const TiposBasicos = () => {
   const edad: number = 35;
   const estaActivo: boolean = true;
 
-  const poderes = ["Velocidad", "Volar", "Respidad en el agua"];
+  const poderes: string[] = ["Velocidad", "Volar", "Respidad en el agua"];
 
   return (
     <>
