@@ -1,3 +1,4 @@
+import { Contador } from "./assets/components/Contador";
 import { Funciones } from "./typescript/Funciones";
 import { ObjetosLiterales } from "./typescript/ObjetosLiterales";
 import { TiposBasicos } from "./typescript/TiposBasicos";
@@ -9,9 +10,13 @@ export const App = () => {
       <hr />
       <TiposBasicos />
       <br />
+      <br />
       <ObjetosLiterales />
       <br />
       <Funciones />
+      <br />
+      <br />
+      <Contador />
     </div>
   );
 };
