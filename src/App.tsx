@@ -1,6 +1,7 @@
 import { Contador } from "./components/Contador";
 import { ContadorConHook } from "./components/ContadorConHook";
 import { Login } from "./components/Login";
+import { Usuarios } from "./components/Usuarios";
 import { Funciones } from "./typescript/Funciones";
 import { ObjetosLiterales } from "./typescript/ObjetosLiterales";
 import { TiposBasicos } from "./typescript/TiposBasicos";
@@ -25,6 +26,9 @@ export const App = () => {
       <br />
       <br />
       <Login />
+      <br />
+      <br />
+      <Usuarios />
     </div>
   );
 };
